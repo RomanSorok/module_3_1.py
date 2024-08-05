@@ -18,6 +18,6 @@ def is_contains(string, list_to_search):
         if i.lower() == string.lower():
             return True
     return False
-print(is_contains('cycle', ['recycling', 'cyclic'])) # No matches
+print(is_contains('cycle', ['recycling', 'cyclic']))
 
 print(calls)
